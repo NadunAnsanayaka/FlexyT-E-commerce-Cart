@@ -1,0 +1,162 @@
+
+article {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-bottom: 20px; /* Adjust the bottom margin as needed */
+}
+
+
+.cart_header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+.cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: 0.5px solid gray;
+    padding-bottom: 5px;
+}
+
+.cart_box img {
+    width: 50px;
+    height: 50px;
+}
+
+.cart_img {
+    display: flex;
+    width: 400px;
+}
+
+.cart_img p {
+    font-weight: lighter;
+    margin-left: 10px;
+}
+
+.cart_box div:nth-child(2) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.cart_box div:nth-child(3) button {
+    padding: 5px 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: lightcoral;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cart_box div:nth-child(3) button:hover {
+    background-color: darkseagreen;
+}
+
+.cart_box div:nth-child(3) span {
+    background-color: lightgreen;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total span:nth-child(1) {
+    font-size: 2rem;
+    color: skyblue;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.total span:nth-child(2) {
+    font-size: 2rem;
+    color: green;
+    font-weight: bold;
+}
+/* Add these styles to your existing styles */
+
+/* Styling for CouponCode component */
+.CouponCode {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CouponCode input {
+    padding: 8px;
+    margin-right: 8px;
+}
+
+.CouponCode button {
+    margin-top: 5px;
+    padding: 8px 40px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    
+}
+
+.CouponCode button:hover {
+    background-color: darkseagreen;
+}
+
+/* Styling for CartTotal component */
+.CartTotal {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    outline: 1px;
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.CartTotal div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    
+}
+
+.CartTotal p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.CartTotal span {
+    font-size: 1rem;
+    font-weight: bold;
+    color: green;
+}
+
+.CartTotal button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.CartTotal button:hover {
+    background-color: darkseagreen;
+}
